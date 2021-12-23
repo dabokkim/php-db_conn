@@ -1,0 +1,278 @@
+/*  공통 영역*/
+*{
+    font-family: "Noto Sans KR", sans-serif;
+    list-style: none;  /*목록에 점 없애는기능*/
+    text-decoration: none; /*글자에 색깔 밑줄 없애는기능*/
+    border-collapse: collapse; /* 표의 테두리와 셀의 테두리 사이 간격 없앰*/
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 100px;
+}
+.contents1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.contents1_bold{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 18px;
+}
+
+.contents_about{
+    text-align: left;
+    padding-left: 120px;
+    color: white;
+    
+}
+.contents_about > h2{
+    color: white;
+}
+
+.about_intro_bg_2{
+    background-image: url("image/sky-astrology-cosmos-galaxy-starry.jpg");
+    width: 100%; 
+    height: 100%;
+    background-size: cover;   
+}
+
+/* ----------------------*/
+
+.intro_bg{ /*상단영역 배경이미지 설정*/
+    background-image: url("image/city\ pop_bg_2.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 718px; 
+    background-size: cover;   
+}
+
+.intro_bg_2{
+    background-image: url("image/city\ pop_list_1.jpeg");
+    width: 100%; 
+    height: 100%;
+    background-size: cover;   
+}
+
+.domestic_intro_bg_2{
+    background-image: url("image/sky-astrology-cosmos-galaxy-starry.jpg");
+    width: 100%; 
+    height: 100%;
+    background-size: cover;   
+}
+.foreign_intro_bg_2{
+    background-image: url("image/night_2.jpg");
+    width: 100%; 
+    height: 100%;
+    background-size: cover;   
+}
+
+
+
+.intro_bg_3{
+    background-image: url("image/city-pop-playlist-6-main-31cf461b-a668-4a92-aff5-abd6470d955c.gif");
+    width: 100%; 
+    height: 100%;
+    background-size: cover;   
+}
+
+.header{
+    display: flex; /*가로로 배치*/
+    width: 1280px;
+    height: 86px;
+    margin: auto;
+}
+
+.header_2{
+    display: flex; /*가로로 배치*/
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.search_area > form > input{
+    border: none;  /* search에 들어있는 input값 테두리 없애기 */
+    width: 250px;
+    height: 40px;
+    background:rgba(0, 0, 0, 0); /* rgba : 투명도*/
+    color: #fff; /* #fff >> #ffffff와 같음*/
+    padding-left: 10px;
+}
+
+.search_area > form > span{ /*검색 텍스트 버튼화*/
+    width: 50px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer; 
+}
+
+.search_area{
+    width: 300px;
+    height: 40px;
+    background : rgba(0, 0, 0, 0.5); /* 50%의 투명도로 설정*/
+    border-radius: 5px;
+    margin-top: 24px;
+    position: fixed;
+}
+
+.menu_design{
+    list-style-type: none;
+    background-color: rgba(204, 204, 204, 0.281);
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    height: 70%;
+    overflow: auto;
+    position: fixed;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+
+.menu_design > ul >div >li >a{
+    text-decoration: none;
+    display: block;
+    color:rgb(181, 225, 255);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.Play_List{
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.nav{
+    display: flex; /*레이아웃 배치*/
+    justify-content: flex-end; /* 메뉴 오른쪽 끝으로 붙이기 */
+    line-height: 0px;
+    width: calc(1280px - 300px);
+    position: fixed;
+    padding-left: 700px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav>li{   /* (>) : 자식선택자 사용 , 바로 밑의 하나만 선택됨 */
+    flex: 1;
+    margin: 40px;
+}
+
+.nav > li > a{
+    font-size: 20px;
+    color: white;
+}
+
+.intro_text{
+    width: 100%;
+    text-align: center;
+    margin: 231px auto 231px auto; /* 상 우 하 좌 순으로 margin이 들어감*/
+}
+
+.intro_text_1{
+    width: 100%;
+    text-align: center;
+    margin: 50px auto 100px -200px; /* 상 우 하 좌 순으로 margin이 들어감*/
+
+}
+
+.intro_text>h1{
+    color: white;  
+}
+
+.intro_text>h4{
+    color: white;
+}
+.photo{
+    flex: 1;
+    background-size: contain;
+}
+
+/* main_text0 */
+
+.main_text0{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.main_text0 > .contents1{
+    text-align: center;
+}
+
+.more{
+    width: 100px;
+    height: 30px;
+    background: rgba(113, 185, 185, 0.644);
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    margin: auto; /*가운데로 배치*/
+    margin-top: 30px;
+
+}
+
+/* main_text1 */
+.main_text1{
+    /* margin-top: 50px; */
+    width: 100%;
+    height: 100%;
+    padding-left: 200px;
+    color: white;
+}
+
+.main_text1 > h1{
+    
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+.main_text1 > .contents1{
+    color: white;
+    text-align: center;
+}
+
+.music_frame{
+   padding-top: 50px;
+}
+
+
+.service{
+    width: 1280px;
+    height: 430px;
+    display: flex;  /*flexible box : 레이아웃 배치 전용 기능*/
+    margin:  auto;
+    padding-top: 50px;
+}
+.service > .contents2{
+    flex: 1;
+    padding-left: 20px;
+    color: white;
+}
+
+.service > .contents2 > h2{
+    color: white;
+}
+
+/*하단부 고정영역*/
+footer{
+    display: flex;
+    background:#1f1f1f;
+}
+
+footer > div:first-child{
+    flex: 3; /* 좌측 3 */
+    text-align: center;
+    color: white;
+}
+
+footer > div:last-child{
+    flex: 9; /* 우측 9 */
+    color: white;
+}

@@ -1,0 +1,147 @@
+<html lang = "ko">
+    <head>
+        <title> 해외 City Pop Play_List</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="second_style.css"> <!--css연동-->
+    </head>
+    <body>
+        <!--페이지_1-->
+        <div class = "wrap">
+            <div class = "intro_bg"> <!--상단영역-->
+                <div class ="header" id="link_header"> <!--class는 .으로, id는 #으로 표기-->
+                    <div class = "search_area">
+                        <form>
+                        <input type="search" placeholder="Search">
+                        <span>검색</span>
+                        </form>
+                    </div>
+                    <ul class="nav">
+                        <li><a href="second_index.html">홈</a></li>
+                        <li><a href="second_aboutUs.html">소개</a></li>
+                        <li><a href="second_playing.php#domestic">국내</a></li>
+                        <li><a href="second_foreign.html#foreign">해외</a></li>
+                    </ul>
+                </div>
+                <div class="menu_design">
+                <ul>
+                    <li class="Play_List">Play List</li>
+                    <div>
+                    <li><a href="#first_music">Cheapest Flight</a></li>
+                    <li><a href="#second_music">Mariya Takeuchi Plastic Love</a></li>
+                    <li><a href="#third_music">Chaka Khan - WhatCha Gonna Do for Me</a></li>
+                    </div>
+                </ul>
+                </div>
+                <div class="intro_text">
+                    <h1> City Pop </h1>
+                    <h4 class="contents1">레트로한 감성을 느껴보세요</h4>
+                </div>
+            </div>
+        </div>
+
+        <!--페이지_2--> 
+        <div class = "wrap">
+            <div class = "foreign_intro_bg_2"> <!--상단영역-->
+                <div class ="header_2" id="first_music"> <!--class는 .으로, id는 #으로 표기-->
+                <div class="intro_text_1">
+                    <div class="main_text1">
+                        <h1>해외 City Pop</h1>
+                        <div class="contents1"> </div>
+                        <div class="service">
+                          <div class="photo">
+                            <img src="image/city pop_list_4.jpeg" width="500px" height="400px">
+                                <div class="music_frame">
+                                <!--오디오버튼영역-->
+                                <audio src="multimedia/PREP - Cheapest Flight.mp3" id="music" type = "audio/mp3" controls="controls" loop="loop"></audio>
+                                <div id="time"></div>
+                                <script src="second_sound.js"></script>  
+                                </div>
+                          </div>
+                          <div class="contents2">
+                              <h2>Cheapest Flight</h2>
+                                <br>
+                               
+                          </div>  
+                        </div>        
+                      </div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+       <!--페이지_3--> 
+        <div class = "wrap">
+            <div class = "foreign_intro_bg_2"> <!--상단영역-->
+                <div class ="header_2" id="second_music"> <!--class는 .으로, id는 #으로 표기-->
+                <div class="intro_text_1">
+                    <div class="main_text1">
+                        <h1>해외 City Pop</h1>
+                        <div class="contents1"> </div>
+                        <div class="service">
+                          <div class="photo">
+                            <img src="image/foreign_2.gif" width="500px" height="400px">
+                                <div class="music_frame">
+                                <!--오디오버튼영역-->
+                                <audio src="multimedia/Mariya Takeuchi Plastic Love  竹内 まりや.mp3" id="music" type = "audio/mp3" controls="controls" loop="loop"></audio>
+                                <div id="time"></div>
+                                <script src="second_sound.js"></script> 
+                                </div>
+                          </div>
+                          <div class="contents2">
+                              <h2>Mariya Takeuchi Plastic Love</h2>
+                                <br>
+                            
+                          </div>
+                        </div>
+                      </div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <!--페이지_4--> 
+        <div class = "wrap">
+            <div class = "foreign_intro_bg_2"> <!--상단영역-->
+                <div class ="header_2" id="third_music"> <!--class는 .으로, id는 #으로 표기-->
+                <div class="intro_text_1">
+                    <div class="main_text1">
+                        <h1>해외 City Pop</h1>
+                        <div class="contents1"> </div>
+                        <div class="service">
+                          <div class="photo">
+                            <img src="image/foreign_3.gif" width="500px" height="400px">
+                                <div class="music_frame">
+                                <!--오디오버튼영역-->
+                                <audio src="multimedia/What Cha_ Gonna Do for Me.mp3" id="music" type = "audio/mp3" controls="controls" loop="loop"></audio>
+                                <div id="time"></div>
+                                <script src="second_sound.js"></script> 
+                                </div>
+                          </div>
+
+                          <div class="contents2">
+                              <h2>Chaka Khan - WhatCha Gonna Do for Me</h2>
+                                <br>
+                                
+                          </div>
+                        </div>
+                        
+                      </div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!--하단영역-->
+        <footer>    
+            <div>
+                LOGO
+            </div>
+            <div>
+                DABOK FRONTEND PROJECT <br>
+                양산시 물금읍 야리로111 123-456 <br>
+                010 - 1234 - 5678 <br>
+                COPYRIGHT 2021. DABOK. ALL RIGHT RESERVED <br>
+            </div>
+        </footer> 
+    </body>
+</html>
